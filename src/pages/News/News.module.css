@@ -1,0 +1,27 @@
+.news {
+    height: 50px;
+}
+.divsnews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    display: flex;
+    justify-content: center;
+}
+.panel {
+    display: none;
+}
+@media screen and (max-width: 1070px){
+    .divsnews {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 550px){
+    .divsnews {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

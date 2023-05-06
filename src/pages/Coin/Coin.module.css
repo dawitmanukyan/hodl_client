@@ -1,0 +1,115 @@
+#coin_data {
+    height: 500px;
+    width: 98%;
+    background: #181C26;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#coin_data_div {
+    display: flex;
+    justify-content: center;
+}
+#coin {
+    height: 90%;
+    width: 95%;
+}
+#coin_name {
+    color: #fff;
+    margin-left: 10px;
+}
+#cn_info {
+    display: flex;
+}
+.infocoin {
+    background: #212A32;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+#infsdiv {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.data_ab_coin {
+    font-size: 22px;
+    font: bold;
+    margin-left: 10px;
+}
+#symbol {
+    background: #31A8DC;
+    font-weight: 900;
+}
+#cn_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid #31A8DC;
+    border-top: 1px solid #31A8DC;
+    color: #fff;
+}
+.cn_data_div {
+    display: flex;
+    align-items: center;
+}
+#token {
+    color: #fff;
+    background: #475163;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+}
+#all_datacn {
+    display: grid;
+    grid-gap: 15px;
+    width: 80%;
+}
+#copy_icon {
+    margin-left: 5px;
+}
+#cndata_div {
+    display: flex;
+    justify-content: space-between;
+}
+#coindata_btns {
+    width: 15%;
+    height: 150px;
+    display: grid;
+    grid-gap: 7px;
+}
+.linkbtns {
+    background: inherit;
+    border: 1px solid #31A8DC;
+    color: #fff;
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+#btn_vote {
+    color: #31A8DC;
+    background: inherit;
+    font-size: 23px;
+    border: 1px solid #31A8DC;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+}
+#votebtn_div {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#youcan {
+    color: #fff;
+}
+#vt_btn {
+    width: 270px;
+}

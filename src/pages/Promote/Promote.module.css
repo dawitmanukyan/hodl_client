@@ -1,0 +1,49 @@
+#promote {
+    background: #202931;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#promoteheader {
+    color: #fff;
+    font-size: 50px;
+}
+#group_icn {
+    color: #fff;
+    font-size: 50px;
+}
+#pr_div {
+    display: flex;
+    justify-content: center;
+}
+#pr {
+    display: grid;
+    grid-gap: 10px;
+    height: 150px;
+}
+#daily_users {
+    display: grid;
+    text-align: center;
+    color: #72727C;
+}
+#users_num {
+    color: #fff;
+    font-size: 25px;
+}
+#gr_icn {
+    display: flex;
+    justify-content: center;
+}
+#subs {
+    background: #845AFF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+#data_div {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}

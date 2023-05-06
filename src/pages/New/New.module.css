@@ -1,0 +1,11 @@
+#newsimg {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    text-align: center;
+}
+#newimg {
+    width: 80%;
+    border-radius: 10px;
+}

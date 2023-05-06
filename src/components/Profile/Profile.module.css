@@ -1,0 +1,14 @@
+#profile_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 110px;
+    cursor: pointer;
+}
+#username {
+    color: #A9A9AA;
+}
+#profile_img {
+    border-radius: 50%;
+    border: 2px solid #31A8DC;
+}

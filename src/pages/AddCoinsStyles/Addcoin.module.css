@@ -1,0 +1,164 @@
+.add_btn {
+    border: 1px solid #31a8dc;
+    background: #2e2c40;
+    color: #fff;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.add_btn:hover {
+    opacity: 70%;
+}
+#addbtnsdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#addbtns {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+#addcoin_form {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: space-around;
+    background: #181D23;
+    width: 100%;
+    border-radius: 15px;
+}
+.addcoin_inpt {
+    border-radius: 4px;
+    padding: 10px;
+    height: 42px;
+    background: #232a32;
+    border: 1px solid #232a32;
+    color: #fff;
+    width: 100%;
+    outline: none;
+}
+.addcoin_inpt:hover {
+    border: 1px solid #fff;
+}
+#addcoin {
+    display: grid;
+    grid-gap: 15px;
+    width: 70%;
+}
+#addcoin_form_div {
+    display: grid;
+    grid-gap: 15px;
+    border-radius: 15px;
+    background:  #181D23;
+    padding: 12px;
+}
+#coinlinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    font-size: 17px;
+    color: #fff;
+}
+.addcoin_ar {
+    border-radius: 4px;
+    padding: 10px;
+    background: #232a32;
+    border: 1px solid #232a32;
+    color: #fff;
+    width: 100%;
+    height: 126px;
+    outline: none;
+}
+.addcoin_ar:hover {
+    border: 1px solid #fff;
+}
+.add_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+#addcoinbutton {
+    width: 200px;
+    height: 55px;
+    color: #fff;
+    background: #232A32;
+    border: 1px solid #31a8dc;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+#addcoinbutton:hover {
+    background: #31a8dc;
+}
+.form_div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+.inptinfo {
+    color: #fff;
+    font-size: 16.5px;
+}
+.inptinform {
+    display: flex;
+    align-items: center;
+}
+.required {
+    font-size: 12px;
+    color: red;
+    margin-left: 7px;
+}
+#invalid {
+    color: red;
+    font-size: 14px;
+    border: 1px solid #e64646;
+    background: rgba(230, 70, 70, 0.16);
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+#logofile {
+    border-radius: 4px;
+    padding: 10px;
+    height: 42px;
+    color: #fff;
+    width: 100%;
+    outline: none;
+}
+#presaletext {
+    color: #fff;
+}
+#presale_inpt {
+    height: 25px;
+    width: 25px;
+}
+#presale_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#addcoin_warning {
+    color: red;
+}
+#captcha_div {
+    display: grid;
+    grid-gap: 10px;
+}
+@media screen and (max-width: 890px){
+    #addcoin {
+        width: 98%;
+    }
+}
+@media screen and (max-width: 770px){
+    #addcoin_form {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .add_div {
+        width: 100%;
+    }
+}

@@ -1,0 +1,241 @@
+header {
+    background: #2e2c40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+.header_btn {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border: 1px solid #31a8dc;
+    padding: 17px;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all ease 0.7s;
+}
+.header_btn:hover {
+    background: #31a8dc;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    width: 430px;
+}
+nav > a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.cryptocurrencies {
+    border: 1px solid #6c688f;
+    border-radius: 6px;
+    padding: 2px 7px;
+}
+.crypto_header {
+    color: #31a8dc;
+}
+#crypto_bar {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+.crypto_value {
+    color: #fff;
+}
+.header_icon {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+#icons {
+    display: flex;
+    justify-content: space-around;
+    width: 110px;
+}
+#icon_home {
+    background-image: url(./img/home.png);
+}
+#icon_tele {
+    height: 36px;
+    width: 36px;
+    background-image: url(./img/1024px-Telegram_logo.svg.png);
+}
+#iconsnav {
+    display: flex;
+    align-items: center;
+}
+.icon_link {
+    display: flex;
+    align-items: center;
+}
+#header_logo {
+    width: 145px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./img/2.png);
+
+}
+#logodiv {
+    display: flex;
+    align-items: center;
+}
+#greed_span {
+    color: #b0e368;
+}
+.percent {
+    color: green;
+    font-size: 12px;
+}
+#dropdown {
+    height: 500px;
+    width: 150px;
+    background: #fff;
+
+}
+#dropdownmenu {
+    background: #2E2C40;
+}
+.dropitem {
+    color: #fff;
+    border: 1px solid red;
+}
+#drop {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url();
+    height: 40px;
+    width: 40px;
+}
+#menuicon {
+    font-size: 40px;
+}
+p {
+    margin-bottom: 0px;
+}
+#dropmenu {
+    display: none;
+}
+#dropmenu > button {
+    border: none;
+    background: inherit;
+    height: 50px;
+}
+#dropdown_menu {
+    background: #2E2C40;
+}
+#headerdiv {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+}
+.signin {
+    color: #fff;
+}
+.gaccountlogin {
+    background: #fff;
+    border-radius: 7px;
+}
+#signinpanel {
+    background: #2E2C40;
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    top: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contgoogle {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    height: 100%;
+}
+#lgtext {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+#profile_data {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 110px;
+    justify-content: space-around;
+}
+#profile_img {
+    border-radius: 50%;
+}
+#signout {
+    background: red;
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    transition: all ease 0.5s;
+}
+#signout:hover {
+    opacity: 70%;
+}
+@media screen and (max-width: 1340px){
+    #iconsnav {
+        display: none;
+    }
+    #dropdown {
+        display: block;
+    }
+    #signinpanel {
+        top: 0px;
+        width: 100%;
+    }
+    #dropmenu_left {
+        display: block;
+    }
+}
+@media screen and (max-width: 880px){
+    #crypto_bar {
+        width: 540px;
+    }
+}
+@media screen and (max-width: 820px){
+    #crypto_bar, #dropmenu_left {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    #dropmenu {
+        display: block;
+    }
+}
+@media screen and (max-width: 430px){
+    #headerdiv {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 350px){
+    #headerdiv {
+        width: auto;
+    }
+}
+@media screen and (max-width: 305px){
+    #header_logo {
+        width: 100px;
+    }
+}

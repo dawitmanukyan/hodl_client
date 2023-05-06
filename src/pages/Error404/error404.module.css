@@ -1,0 +1,21 @@
+#error_div {
+    height: 100px;
+    background: #2E2C40;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+#pagenotfound {
+    color: #31A8DC;
+}
+#errorcode {
+    color: red;
+}
+#error404 {
+    display: grid;
+    grid-gap: 15px;
+}

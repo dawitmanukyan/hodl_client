@@ -1,0 +1,301 @@
+.homepage {
+    width: 100%;
+}
+#im {
+    width: 98%;
+    border-radius: 15px;
+    height: 156px;
+}
+#cryptodiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#cryptoposters {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+.crypto_poster {
+    height: 202px;
+    border-radius: 15px;
+    width: 32%;
+}
+#imgdiv {
+    display: flex;
+    justify-content: center;
+}
+#posters {
+    display: grid;
+    grid-gap: 15px;
+}
+#promoted {
+    display: flex;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    justify-content: space-around;
+    background: #2E2C40;
+    height: 50px;
+    align-items: center;
+    color: #fff;
+}
+#cndata {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    background: #E9F0F8;
+    height: 50px;
+    align-items: center;
+    color: #2E2C40;
+    font-weight: 900;
+}
+#procn {
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#procndata {
+    width: 98%;
+}
+.filterbtn {
+    height: 55px;
+    border: 1px solid #31a8dc;
+    background: #2E2C40;
+    color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all ease 0.5s;
+}
+.filterbtn:hover {
+    background: #31a8dc;
+}
+#drp {
+    background: inherit;
+}
+#filtbuttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+a {
+    text-decoration: none;
+}
+.filterinp {
+    border-radius: 10px;
+    border: none;
+    background: #2E2C40;
+    width: 21%;
+    height: 55px;
+    font-size: 17px;
+    padding: 7px;
+    color: #fff;
+}
+.coinsupt {
+    font-size: 12px;
+    color: #888cab;
+    text-align: center;
+}
+#selcoins {
+    background: #2E2C40;
+    color: #818ea2;
+    border-radius: 4px;
+}
+#filtbuttonsdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-radius: 10px;
+    background: #2E2C40;
+    border-collapse: collapse;
+}
+#thead {
+    color: #fff;
+    height: 50px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+th {
+    text-align: center;
+}
+td {
+    border-top: 1px solid rgba(0, 0, 0, .05);
+    color: #2E2C40;
+    text-align: center;
+    box-sizing: inherit;
+}
+#tbody {
+    box-sizing: inherit;
+}
+.tabletrs {
+    height: 74px;
+    cursor: pointer;
+    color: #2E2C40;
+    background: #E9F0F8;    
+}
+.tabletrs:hover {
+    background: #fff;
+}
+#tablediv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#rating {
+    font-size: 17px;
+    margin: 3px;
+}
+#tablebtn {
+    background: inherit;
+    border: 1px solid #31a8dc;
+    color: #31a8dc;
+    width: 110px;
+    border-radius: 7px;
+    height: 45px;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+#tablebtn:hover {
+    background: #31a8dc;
+    color: #fff;
+}
+.btntd {
+    display: flex;
+    align-items: center;
+    height: 74px;
+    justify-content: center;
+}
+#coinsupt_resp {
+    display: none;
+}
+.dropItem {
+    background: #2E2C40;
+    color: #fff;
+    padding: 12px;
+    border: 1px solid #31a8dc;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropItemsmenu {
+    background: #2E2C40;
+    padding: 5px;
+}
+#cn_name {
+    margin-left: 5px;
+    font: bold;
+} 
+#kycicon {
+    object-fit: contain;
+}
+#audit_icn{
+    color: green;
+    font-size: 30px;
+}
+#verifed {
+    color: #31a8dc;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+}
+#asset_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1480px) {
+    .filterbtn {
+        font-size: 15px;
+        padding: 17px;
+    }
+    #filtbuttons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .filterinp {
+        width: 100%;
+    }
+    button:not(:disabled) {
+        cursor: pointer;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1100px){
+    .crypto_poster {
+        height: 175px;
+    }
+}
+@media screen and (max-width: 880px){
+    .crypto_poster {
+        height: 160px;
+    }
+}
+@media screen and (max-width: 610px){
+    th,#promoted,#cndata {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 560px){
+    .crypto_poster {
+        height: 140px;
+    }
+    td {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 520px){
+    #cryptoposters {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 98%;
+        justify-content: center;
+    }
+    .crypto_poster {
+        width: 100%;
+        height: auto;
+    }
+    #promoted {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 480px){
+    #tablebtn {
+        width: 80px;
+    }
+}
+@media screen and (max-width: 460px) {
+    td,th {
+        font-size: 11px;
+    }
+    #tablebtn {
+        width: 70px;
+    }
+    #promoted {
+        font-size: 11px;
+    }
+    .filterbtn {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 390px){
+    #filtbuttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 342px){
+    #tablebtn {
+        width: 49px;
+    }
+}

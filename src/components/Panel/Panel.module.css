@@ -1,0 +1,116 @@
+.postdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 200px;
+    border: 1px solid rgb(187 187 187);
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.panel {
+    display: grid;
+    grid-gap: 12px;
+    left: 0px;
+}
+.postimage {
+    height: 160px;
+    width: 280px;
+    border-radius: 1em;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#coin_hunt {
+    background-image: url(./img/hunt.jpg);
+}
+#hodl {
+    background-image: url(./img/hodl.jpg);
+    background-size: contain;
+}
+.postcode {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+#subform {
+    background: #181D23;
+    height: 140px;
+    width: 290px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#sub_p {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+#formdiv {
+    display: flex;
+    justify-content: center;
+}
+#email_inp {
+    font-size: 15px;
+    padding: 8px 15px;
+    background-color: inherit;
+    border-radius: 10px;
+    width: 270px;
+    height: 40px;
+    border: 1px solid #31a8dc;
+    color: #fff;
+    outline: none;
+}
+#sub_btn {
+    border-radius: 10px;
+    width: 270px;
+    height: 40px;
+    background: #31a8dc;
+    border: 1px solid #31a8dc;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+}
+#subdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#viewall {
+    text-align: center;
+}
+#viewlink {
+    text-decoration: none;
+    color: gray;
+}
+.panelimg {
+    height: 150px;
+    width: 270px;
+}
+#pn {
+    position: relative;
+    width: 300px;
+}
+#viewalldiv {
+    text-align: center;
+}
+@media screen and (max-width: 1320px) {
+    .panelimg {
+        height: 140px;
+        width: 240px;
+    }
+    .postdiv {
+        width: 260px;
+    }
+    #subform {
+        width: 260px;
+    }
+}
+@media screen and (max-width: 890px){
+    #pn {
+        display: none;
+    }
+}   

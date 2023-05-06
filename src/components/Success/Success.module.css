@@ -1,0 +1,11 @@
+#success {
+    background: #0f850f35;
+    width: 50%;
+    border:1px solid rgb(34, 129, 34);
+    color: rgb(34, 129, 34);
+    text-align: center;
+}
+#success_alert{
+    display: flex;
+    justify-content: center;
+}

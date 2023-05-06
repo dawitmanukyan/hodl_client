@@ -1,0 +1,25 @@
+#advertisement {
+    background: #181C26;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+#close_icon {
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 7px;
+}
+#close_icondiv {
+    display: flex;
+    justify-content: flex-end;
+}
+#imgbanner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
